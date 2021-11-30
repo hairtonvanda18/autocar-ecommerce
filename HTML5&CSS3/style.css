@@ -134,10 +134,91 @@ nav a {
 
 .card-row {
     display: flex;
+    align-items: flex-end;
 }
 
 .new-card {
     background: #FF7A00;
-    padding: 0.5rem;
-    font-weight: 600;
+    padding: 0rem 0.7rem;
+    font-style: italic;
+    font-weight: 500;
+    -moz-transform: skew(-28deg);
+    margin-right: 1rem;
+    margin-left: 2.5rem;
+}
+
+.new-card p {
+    -moz-transform: skew(28deg);
+}
+
+.price-card {
+    background-color: #282828;
+    -moz-transform: skew(-28deg);
+    padding: 0rem 2rem;
+    font-size: 2.441rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.price-card p {
+    -moz-transform: skew(28deg);
+}
+
+.brand-card {
+    background-color: white;
+    -moz-transform: skew(-28deg);
+    padding: 1rem 4rem;
+    font-size: 2.441rem;
+    font-weight: 500;
+    font-style: italic;
+    color: #FF7A00;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1;
+    margin-top: 0.5rem;
+    justify-content: flex-start;
+}
+
+.brand-card p {
+    -moz-transform: skew(28deg);
+}
+
+.model-parag {
+    color: #282828;
+    -moz-transform: skew(28deg);
+}
+
+.interest-card {
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 5.5rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+}
+
+.interest-card span {
+    color: #FF7A00;
+}
+
+.see-more {
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    background: #282828;
+    padding: 0.8rem 0.7rem;
+    -moz-transform: skew(-28deg);
+    margin-left: 15rem;
+}
+
+.see-more p {
+    -moz-transform: skew(28deg);
+}
+
+.see-more a {
+    color: white;
+}
+
+.see-more span {
+    color: #FF7A00;
 }
